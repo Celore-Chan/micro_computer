@@ -1,0 +1,4010 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Nov 26 18:16:22 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS/>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/adder/alu_74181_0" HWVERSION="1.0" INSTANCE="adder_alu_74181_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="alu_74181" VLNV="xilinx.com:module_ref:alu_74181:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_alu_74181_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_0" PORT="o0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_1" PORT="o0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="controlor_upc_0_o17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="3" NAME="f" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_group_to_bus_0" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="adder_alu_74181_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_1" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="m" SIGIS="undef" SIGNAME="controlor_upc_0_o22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="p" SIGIS="undef" SIGNAME="adder_alu_74181_0_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_0" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="zero" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/alu_74181_1" HWVERSION="1.0" INSTANCE="adder_alu_74181_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="alu_74181" VLNV="xilinx.com:module_ref:alu_74181:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_alu_74181_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_1" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="adder_bus_to_single_3_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_single_3_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="3" NAME="f" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_group_to_bus_0" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="adder_alu_74181_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_1" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="m" SIGIS="undef" SIGNAME="controlor_upc_0_o22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="p" SIGIS="undef" SIGNAME="adder_alu_74181_1_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_0" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="zero" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/alu_74181_2" HWVERSION="1.0" INSTANCE="adder_alu_74181_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="alu_74181" VLNV="xilinx.com:module_ref:alu_74181:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_alu_74181_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_1" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="adder_bus_to_single_3_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_single_3_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="3" NAME="f" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_2_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_group_to_bus_0" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="adder_alu_74181_2_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_1" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="m" SIGIS="undef" SIGNAME="controlor_upc_0_o22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="p" SIGIS="undef" SIGNAME="adder_alu_74181_2_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_0" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="zero" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/alu_74181_3" HWVERSION="1.0" INSTANCE="adder_alu_74181_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="alu_74181" VLNV="xilinx.com:module_ref:alu_74181:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_alu_74181_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_1" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="adder_bus_to_single_3_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_single_3_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="cout" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="3" NAME="f" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_3_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_group_to_bus_0" PORT="i3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="adder_alu_74181_3_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_1" PORT="i3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="m" SIGIS="undef" SIGNAME="controlor_upc_0_o22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="p" SIGIS="undef" SIGNAME="adder_alu_74181_3_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_0" PORT="i3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="zero" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/bus_to_group_0" HWVERSION="1.0" INSTANCE="adder_bus_to_group_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_group" VLNV="xilinx.com:module_ref:bus_to_group:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_group_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="15" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_7_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_7" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o0" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o1" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o2" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o3" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/bus_to_group_1" HWVERSION="1.0" INSTANCE="adder_bus_to_group_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_group" VLNV="xilinx.com:module_ref:bus_to_group:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_group_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="15" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o0" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o1" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o2" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o3" RIGHT="0" SIGIS="undef" SIGNAME="adder_bus_to_group_1_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/bus_to_single_3_0" HWVERSION="1.0" INSTANCE="adder_bus_to_single_3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_single_3" VLNV="xilinx.com:module_ref:bus_to_single_3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_single_3_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="i" RIGHT="1" SIGIS="undef" SIGNAME="adder_carry_lookahead_74182_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_carry_lookahead_74182_0" PORT="cout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o1" SIGIS="undef" SIGNAME="adder_bus_to_single_3_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o2" SIGIS="undef" SIGNAME="adder_bus_to_single_3_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o3" SIGIS="undef" SIGNAME="adder_bus_to_single_3_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="cin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/carry_lookahead_74182_0" HWVERSION="1.0" INSTANCE="adder_carry_lookahead_74182_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="carry_lookahead_74182" VLNV="xilinx.com:module_ref:carry_lookahead_74182:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_carry_lookahead_74182_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="cin" SIGIS="undef" SIGNAME="controlor_upc_0_o17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="cout" RIGHT="1" SIGIS="undef" SIGNAME="adder_carry_lookahead_74182_0_cout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_single_3_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="g" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_1" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g_group" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="p" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="p_group" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/group_to_bus_0" HWVERSION="1.0" INSTANCE="adder_group_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="group_to_bus" VLNV="xilinx.com:module_ref:group_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_group_to_bus_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="i0" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i1" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i2" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_2_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i3" RIGHT="0" SIGIS="undef" SIGNAME="adder_alu_74181_3_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="adder_group_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_6" PORT="data_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/single_4_to_bus_0" HWVERSION="1.0" INSTANCE="adder_single_4_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_4_to_bus" VLNV="xilinx.com:module_ref:single_4_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_4_to_bus_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="adder_alu_74181_0_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="adder_alu_74181_1_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="adder_alu_74181_2_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i3" SIGIS="undef" SIGNAME="adder_alu_74181_3_p">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="p"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_carry_lookahead_74182_0" PORT="p"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/single_4_to_bus_1" HWVERSION="1.0" INSTANCE="adder_single_4_to_bus_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_4_to_bus" VLNV="xilinx.com:module_ref:single_4_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_4_to_bus_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="adder_alu_74181_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="adder_alu_74181_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="adder_alu_74181_2_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i3" SIGIS="undef" SIGNAME="adder_alu_74181_3_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_carry_lookahead_74182_0" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adder/single_4_to_bus_2" HWVERSION="1.0" INSTANCE="adder_single_4_to_bus_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_4_to_bus" VLNV="xilinx.com:module_ref:single_4_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_4_to_bus_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_upc_0_o18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o18"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_upc_0_o19">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o19"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="controlor_upc_0_o20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i3" SIGIS="undef" SIGNAME="controlor_upc_0_o21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="adder_single_4_to_bus_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="s"/>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="s"/>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="s"/>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="s"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_out_12_0_0" HWVERSION="1.0" INSTANCE="adpt_out_12_0_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_out_12_0" VLNV="xilinx.com:module_ref:adpt_out_12_0:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_adpt_out_12_0_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="31" NAME="led" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="11" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="controlor_group_to_bus_12_0_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_0_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/adpt_out_final_0_0" HWVERSION="1.0" INSTANCE="adpt_out_final_0_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="adpt_out_final_0" VLNV="xilinx.com:module_ref:adpt_out_final_0:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_adpt_out_final_0_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="31" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_final_0_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="gpio_led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="ram" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="22" NAME="rom" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_23_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/and_gate_0" HWVERSION="1.0" INSTANCE="and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_12"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="not_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ram_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/bus_mux_16_0" HWVERSION="1.0" INSTANCE="bus_mux_16_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_mux_16" VLNV="xilinx.com:module_ref:bus_mux_16:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_mux_16_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="15" NAME="DR" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_8_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_8" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="IR" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="PC" RIGHT="0" SIGIS="undef" SIGNAME="pc_register_16bit_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_register_16bit_0" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="R0" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_1_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_1" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="R1" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_2_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_2" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="R2" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_3_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_3" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="Z" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_6_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_6" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="bus" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_1" PORT="i"/>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="data_in"/>
+            <CONNECTION INSTANCE="register_16bit_1" PORT="data_in"/>
+            <CONNECTION INSTANCE="register_16bit_2" PORT="data_in"/>
+            <CONNECTION INSTANCE="register_16bit_3" PORT="data_in"/>
+            <CONNECTION INSTANCE="register_16bit_5" PORT="data_in"/>
+            <CONNECTION INSTANCE="register_16bit_7" PORT="data_in"/>
+            <CONNECTION INSTANCE="register_16bit_4" PORT="data_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_39_single_3_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_single_3_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/cg_fpga_0" HWVERSION="1.4" INSTANCE="cg_fpga_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="cg_fpga" VLNV="educg.net:user:cg_fpga:1.4">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_cg_fpga_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="IO" LEFT="14" NAME="DDR_addr" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="2" NAME="DDR_ba" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_ck_n" SIGIS="clk"/>
+        <PORT DIR="IO" NAME="DDR_ck_p" SIGIS="clk"/>
+        <PORT DIR="IO" NAME="DDR_cke" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_cs_n" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dm" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="31" NAME="DDR_dq" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_n" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="3" NAME="DDR_dqs_p" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_odt" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_ras_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="DDR_reset_n" SIGIS="rst"/>
+        <PORT DIR="IO" NAME="DDR_we_n" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrn" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ddr_vrp" SIGIS="undef"/>
+        <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_clk" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef"/>
+        <PORT DIR="IO" NAME="FIXED_IO_ps_srstb" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="6" NAME="audio" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="7" NAME="btn" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="0" NAME="btn_clk" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="btn_rst" RIGHT="0" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_register_16bit_0" PORT="reset"/>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="CR"/>
+            <CONNECTION INSTANCE="pc_ic_74161_1" PORT="CR"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="CR"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_2" PORT="CR"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="CR"/>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_1" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_2" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_3" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_6" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_5" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_7" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_8" PORT="reset"/>
+            <CONNECTION INSTANCE="register_16bit_4" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_100M" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="31" NAME="gpio_led" RIGHT="0" SIGIS="undef" SIGNAME="adpt_out_final_0_0_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_final_0_0" PORT="led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_1" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="31" NAME="gpio_sw_2" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="5" NAME="ledm_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="15" NAME="ledm_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="rx_0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="seg_cs" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="7" NAME="seg_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="tx_0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_active" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="23" NAME="vid_data" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_hsync" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_io_in_clk" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vblank" SIGIS="undef"/>
+        <PORT DIR="I" NAME="vid_vsync" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="FIXED_IO" TYPE="INITIATOR" VLNV="xilinx.com:display_processing_system7:fixedio:1.0">
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="DDR_VRN" PHYSICAL="FIXED_IO_ddr_vrn"/>
+            <PORTMAP LOGICAL="DDR_VRP" PHYSICAL="FIXED_IO_ddr_vrp"/>
+            <PORTMAP LOGICAL="MIO" PHYSICAL="FIXED_IO_mio"/>
+            <PORTMAP LOGICAL="PS_CLK" PHYSICAL="FIXED_IO_ps_clk"/>
+            <PORTMAP LOGICAL="PS_PORB" PHYSICAL="FIXED_IO_ps_porb"/>
+            <PORTMAP LOGICAL="PS_SRSTB" PHYSICAL="FIXED_IO_ps_srstb"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+        <BUSINTERFACE BUSNAME="__NOC__" DATAWIDTH="8" NAME="DDR" TYPE="INITIATOR" VLNV="xilinx.com:interface:ddrx:1.0">
+          <PARAMETER NAME="AXI_ARBITRATION_SCHEME" VALUE="TDM"/>
+          <PARAMETER NAME="BURST_LENGTH" VALUE="8"/>
+          <PARAMETER NAME="CAN_DEBUG" VALUE="false"/>
+          <PARAMETER NAME="CAS_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CAS_WRITE_LATENCY" VALUE="11"/>
+          <PARAMETER NAME="CS_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="CUSTOM_PARTS"/>
+          <PARAMETER NAME="DATA_MASK_ENABLED" VALUE="true"/>
+          <PARAMETER NAME="DATA_WIDTH" VALUE="8"/>
+          <PARAMETER NAME="MEMORY_PART"/>
+          <PARAMETER NAME="MEMORY_TYPE" VALUE="COMPONENTS"/>
+          <PARAMETER NAME="MEM_ADDR_MAP" VALUE="ROW_COLUMN_BANK"/>
+          <PARAMETER NAME="SLOT" VALUE="Single"/>
+          <PARAMETER NAME="TIMEPERIOD_PS" VALUE="1250"/>
+          <PORTMAPS>
+            <PORTMAP LOGICAL="ADDR" PHYSICAL="DDR_addr"/>
+            <PORTMAP LOGICAL="BA" PHYSICAL="DDR_ba"/>
+            <PORTMAP LOGICAL="CAS_N" PHYSICAL="DDR_cas_n"/>
+            <PORTMAP LOGICAL="CKE" PHYSICAL="DDR_cke"/>
+            <PORTMAP LOGICAL="CK_N" PHYSICAL="DDR_ck_n"/>
+            <PORTMAP LOGICAL="CK_P" PHYSICAL="DDR_ck_p"/>
+            <PORTMAP LOGICAL="CS_N" PHYSICAL="DDR_cs_n"/>
+            <PORTMAP LOGICAL="DM" PHYSICAL="DDR_dm"/>
+            <PORTMAP LOGICAL="DQ" PHYSICAL="DDR_dq"/>
+            <PORTMAP LOGICAL="DQS_N" PHYSICAL="DDR_dqs_n"/>
+            <PORTMAP LOGICAL="DQS_P" PHYSICAL="DDR_dqs_p"/>
+            <PORTMAP LOGICAL="ODT" PHYSICAL="DDR_odt"/>
+            <PORTMAP LOGICAL="RAS_N" PHYSICAL="DDR_ras_n"/>
+            <PORTMAP LOGICAL="RESET_N" PHYSICAL="DDR_reset_n"/>
+            <PORTMAP LOGICAL="WE_N" PHYSICAL="DDR_we_n"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/cnt/bus_to_group_12_0_0" HWVERSION="1.0" INSTANCE="controlor_cnt_bus_to_group_12_0_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_group_12_0" VLNV="xilinx.com:module_ref:bus_to_group_12_0:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_group_12_0_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="11" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="controlor_group_to_bus_12_0_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_0_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o0" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_bus_to_group_12_0_0_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o1" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_bus_to_group_12_0_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o2" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_bus_to_group_12_0_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/cnt/ic_74161_0" HWVERSION="1.0" INSTANCE="controlor_cnt_ic_74161_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ic_74161" VLNV="xilinx.com:module_ref:ic_74161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ic_74161_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="CT_p"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="CT_t"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CR" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_p" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_t" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_bus_to_group_12_0_0_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_bus_to_group_12_0_0" PORT="o0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="q" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_10_0_0" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/cnt/ic_74161_1" HWVERSION="1.0" INSTANCE="controlor_cnt_ic_74161_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ic_74161" VLNV="xilinx.com:module_ref:ic_74161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ic_74161_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_1_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_2" PORT="CT_p"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_2" PORT="CT_t"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CR" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_p" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_t" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_bus_to_group_12_0_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_bus_to_group_12_0_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="q" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_10_0_0" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/cnt/ic_74161_2" HWVERSION="1.0" INSTANCE="controlor_cnt_ic_74161_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ic_74161" VLNV="xilinx.com:module_ref:ic_74161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ic_74161_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef"/>
+        <PORT DIR="I" NAME="CR" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_p" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_1_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_t" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_1_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_bus_to_group_12_0_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_bus_to_group_12_0_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="q" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_10_0_0" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_32_0/bus_to_single_4_0" HWVERSION="1.0" INSTANCE="controlor_decode_32_0_bus_to_single_4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_single_4" VLNV="xilinx.com:module_ref:bus_to_single_4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_single_4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_0_decoder_2to4_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_0_decoder_2to4_0" PORT="out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o1" SIGIS="undef" SIGNAME="controlor_decode_32_0_bus_to_single_4_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_and_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o2" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o3" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_32_0/decoder_2to4_0" HWVERSION="1.0" INSTANCE="controlor_decode_32_0_decoder_2to4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder_2to4" VLNV="xilinx.com:module_ref:decoder_2to4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_decoder_2to4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_0_single_2_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_0_single_2_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enable" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="out" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_0_decoder_2to4_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_0_bus_to_single_4_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_32_0/single_2_to_bus_0" HWVERSION="1.0" INSTANCE="controlor_decode_32_0_single_2_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_2_to_bus" VLNV="xilinx.com:module_ref:single_2_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_2_to_bus_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_upc_0_o11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_upc_0_o12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_0_single_2_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_0_decoder_2to4_0" PORT="addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_32_1/bus_to_single_4_0" HWVERSION="1.0" INSTANCE="controlor_decode_32_1_bus_to_single_4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_single_4" VLNV="xilinx.com:module_ref:bus_to_single_4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_single_4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_1_decoder_2to4_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_decoder_2to4_0" PORT="out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o0" SIGIS="undef" SIGNAME="controlor_decode_32_1_bus_to_single_4_0_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o1" SIGIS="undef" SIGNAME="controlor_decode_32_1_bus_to_single_4_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o2" SIGIS="undef" SIGNAME="controlor_decode_32_1_bus_to_single_4_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="ram_0" PORT="we"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o3" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_32_1/decoder_2to4_0" HWVERSION="1.0" INSTANCE="controlor_decode_32_1_decoder_2to4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder_2to4" VLNV="xilinx.com:module_ref:decoder_2to4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_decoder_2to4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_1_single_2_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_single_2_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enable" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="out" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_1_decoder_2to4_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_bus_to_single_4_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_32_1/single_2_to_bus_0" HWVERSION="1.0" INSTANCE="controlor_decode_32_1_single_2_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_2_to_bus" VLNV="xilinx.com:module_ref:single_2_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_2_to_bus_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_upc_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_upc_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_32_1_single_2_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_decoder_2to4_0" PORT="addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_38/bus_to_single_8_0" HWVERSION="1.0" INSTANCE="controlor_decode_38_bus_to_single_8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_single_8" VLNV="xilinx.com:module_ref:bus_to_single_8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_single_8_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_38_decoder_3to8_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_decoder_3to8_0" PORT="out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o1" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="LD"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_2" PORT="LD"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="LD"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o2" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_0" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o3" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_1" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o4" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_2" PORT="b"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o7" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_38/decoder_3to8_0" HWVERSION="1.0" INSTANCE="controlor_decode_38_decoder_3to8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder_3to8" VLNV="xilinx.com:module_ref:decoder_3to8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_decoder_3to8_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="2" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_38_single_3_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_single_3_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enable" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="out" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_38_decoder_3to8_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_38/single_3_to_bus_0" HWVERSION="1.0" INSTANCE="controlor_decode_38_single_3_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_3_to_bus" VLNV="xilinx.com:module_ref:single_3_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_3_to_bus_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_upc_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_upc_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="controlor_upc_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_38_single_3_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_decoder_3to8_0" PORT="addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_39/bus_to_single_8_0" HWVERSION="1.0" INSTANCE="controlor_decode_39_bus_to_single_8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_single_8" VLNV="xilinx.com:module_ref:bus_to_single_8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_single_8_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_39_decoder_3to8_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_decoder_3to8_0" PORT="out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o1" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o2" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_1" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o3" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_2" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o4" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_3" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o5" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_6" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o6" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_8" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o7" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_register_16bit_0" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_39/decoder_3to8_0" HWVERSION="1.0" INSTANCE="controlor_decode_39_decoder_3to8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder_3to8" VLNV="xilinx.com:module_ref:decoder_3to8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_decoder_3to8_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="2" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_39_single_3_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_single_3_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enable" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="out" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_39_decoder_3to8_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_39/single_3_to_bus_0" HWVERSION="1.0" INSTANCE="controlor_decode_39_single_3_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_3_to_bus" VLNV="xilinx.com:module_ref:single_3_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_3_to_bus_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_upc_0_o13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_upc_0_o14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="controlor_upc_0_o15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_39_single_3_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_decoder_3to8_0" PORT="addr"/>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="sel"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_40/bus_to_single_8_0" HWVERSION="1.0" INSTANCE="controlor_decode_40_bus_to_single_8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bus_to_single_8" VLNV="xilinx.com:module_ref:bus_to_single_8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bus_to_single_8_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_40_decoder_3to8_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_decoder_3to8_0" PORT="out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o1" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="write_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o2" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_1" PORT="write_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o3" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_2" PORT="write_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o4" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_3" PORT="write_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o5" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_7" PORT="write_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o6" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_4" PORT="write_en"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o7" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_5" PORT="write_en"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_40/decoder_3to8_0" HWVERSION="1.0" INSTANCE="controlor_decode_40_decoder_3to8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder_3to8" VLNV="xilinx.com:module_ref:decoder_3to8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_decoder_3to8_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="2" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_40_single_3_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_single_3_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="enable" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="out" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_40_decoder_3to8_0_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/decode_40/single_3_to_bus_0" HWVERSION="1.0" INSTANCE="controlor_decode_40_single_3_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_3_to_bus" VLNV="xilinx.com:module_ref:single_3_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_3_to_bus_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_upc_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_upc_0_o7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="controlor_upc_0_o8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_decode_40_single_3_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_decoder_3to8_0" PORT="addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/group_to_bus_12_0_0" HWVERSION="1.0" INSTANCE="controlor_group_to_bus_12_0_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="group_to_bus_12_0" VLNV="xilinx.com:module_ref:group_to_bus_12_0:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_group_to_bus_12_0_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="i0" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_4_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i1" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_4_to_bus_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_1" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i2" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_4_to_bus_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_2" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="11" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_group_to_bus_12_0_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_bus_to_group_12_0_0" PORT="i"/>
+            <CONNECTION INSTANCE="adpt_out_12_0_0" PORT="sel"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/group_to_bus_12_10_0_0" HWVERSION="1.0" INSTANCE="controlor_group_to_bus_12_10_0_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="group_to_bus_12_10_0" VLNV="xilinx.com:module_ref:group_to_bus_12_10_0:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_group_to_bus_12_10_0_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="i0" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i1" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i2" RIGHT="0" SIGIS="undef" SIGNAME="controlor_cnt_ic_74161_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="9" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_group_to_bus_12_10_0_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_rom_1kx23_0" PORT="addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/not_gate_2" HWVERSION="1.0" INSTANCE="controlor_not_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="not_gate" VLNV="xilinx.com:module_ref:not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_not_gate_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_not_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_rom_1kx23_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/rom_1kx23_0" HWVERSION="1.0" INSTANCE="controlor_rom_1kx23_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="rom_1kx23" VLNV="xilinx.com:module_ref:rom_1kx23:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_rom_1kx23_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="9" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="controlor_group_to_bus_12_10_0_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_10_0_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="controlor_not_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_not_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="22" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="controlor_rom_1kx23_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="en" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/single_23_to_bus_0" HWVERSION="1.0" INSTANCE="controlor_single_23_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_23_to_bus" VLNV="xilinx.com:module_ref:single_23_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_23_to_bus_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_upc_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_upc_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="controlor_upc_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i3" SIGIS="undef" SIGNAME="controlor_upc_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i4" SIGIS="undef" SIGNAME="controlor_upc_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i5" SIGIS="undef" SIGNAME="controlor_upc_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i6" SIGIS="undef" SIGNAME="controlor_upc_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i7" SIGIS="undef" SIGNAME="controlor_upc_0_o7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i8" SIGIS="undef" SIGNAME="controlor_upc_0_o8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i9" SIGIS="undef" SIGNAME="controlor_upc_0_o9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i10" SIGIS="undef" SIGNAME="controlor_upc_0_o10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i11" SIGIS="undef" SIGNAME="controlor_upc_0_o11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i12" SIGIS="undef" SIGNAME="controlor_upc_0_o12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i13" SIGIS="undef" SIGNAME="controlor_upc_0_o13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i14" SIGIS="undef" SIGNAME="controlor_upc_0_o14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i15" SIGIS="undef" SIGNAME="controlor_upc_0_o15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i16" SIGIS="undef" SIGNAME="controlor_upc_0_o16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o16"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i17" SIGIS="undef" SIGNAME="controlor_upc_0_o17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i18" SIGIS="undef" SIGNAME="controlor_upc_0_o18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o18"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i19" SIGIS="undef" SIGNAME="controlor_upc_0_o19">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o19"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i20" SIGIS="undef" SIGNAME="controlor_upc_0_o20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i21" SIGIS="undef" SIGNAME="controlor_upc_0_o21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i22" SIGIS="undef" SIGNAME="controlor_upc_0_o22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="22" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_23_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adpt_out_final_0_0" PORT="rom"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/single_4_to_bus_0" HWVERSION="1.0" INSTANCE="controlor_single_4_to_bus_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_4_to_bus" VLNV="xilinx.com:module_ref:single_4_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_4_to_bus_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i3" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_4_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_0_0" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/single_4_to_bus_1" HWVERSION="1.0" INSTANCE="controlor_single_4_to_bus_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_4_to_bus" VLNV="xilinx.com:module_ref:single_4_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_4_to_bus_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i3" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_4_to_bus_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_0_0" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/single_4_to_bus_2" HWVERSION="1.0" INSTANCE="controlor_single_4_to_bus_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="single_4_to_bus" VLNV="xilinx.com:module_ref:single_4_to_bus:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_single_4_to_bus_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="i0" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i1" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_or_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i2" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i3" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="controlor_single_4_to_bus_2_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_group_to_bus_12_0_0" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct1/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct1_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct1/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct1_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct1/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct1_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct1/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct1_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct1/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct1_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct1_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_0" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct2/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct2_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct2/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct2_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct2/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct2_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct2/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct2_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct2/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct2_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct2_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_0" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct3/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct3_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct3/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct3_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct3/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct3_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct3/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct3_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct3/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct3_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct3_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_0" PORT="i3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct4/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct4_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct4/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct4_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct4/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct4_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct4/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct4_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct4/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct4_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct4_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_1" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct5/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct5_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct5/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct5_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct5/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct5_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct5/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct5_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct5/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct5_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct5_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_1" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct6/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct6_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct6/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct6_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct6/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct6_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct6/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct6_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct6/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct6_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct6_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_1" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct7/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct7_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct7/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct7_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct7/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct7_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct7/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct7_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct7/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct7_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct7_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_1" PORT="i3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct8/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct8_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o16"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct8/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct8_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct8/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct8_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct8/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct8_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct8/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct8_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct8_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_2" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct9/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct9_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct9/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct9_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="pc_0_o15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_0" PORT="o15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct9/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct9_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct9/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct9_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct9/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct9_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct9_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_2" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct/and_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_upc_0_o8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_or_gate_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct/and_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_or_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct/and_gate_2" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_38_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_or_gate_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct/or_gate_0" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct_or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_and_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_or_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/uir_slct/slct/or_gate_1" HWVERSION="1.0" INSTANCE="controlor_uir_slct_slct_or_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_and_gate_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="controlor_uir_slct_slct_or_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_0" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/controlor/upc_0" HWVERSION="1.0" INSTANCE="controlor_upc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="upc" VLNV="xilinx.com:module_ref:upc:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_upc_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="22" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="controlor_rom_1kx23_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_rom_1kx23_0" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o" SIGIS="undef" SIGNAME="controlor_upc_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_single_3_to_bus_0" PORT="i0"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o1" SIGIS="undef" SIGNAME="controlor_upc_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_single_3_to_bus_0" PORT="i1"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o2" SIGIS="undef" SIGNAME="controlor_upc_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_38_single_3_to_bus_0" PORT="i2"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o3" SIGIS="undef" SIGNAME="controlor_upc_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o4" SIGIS="undef" SIGNAME="controlor_upc_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_single_2_to_bus_0" PORT="i0"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o5" SIGIS="undef" SIGNAME="controlor_upc_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_single_2_to_bus_0" PORT="i1"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o6" SIGIS="undef" SIGNAME="controlor_upc_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_single_3_to_bus_0" PORT="i0"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o7" SIGIS="undef" SIGNAME="controlor_upc_0_o7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_single_3_to_bus_0" PORT="i1"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o8" SIGIS="undef" SIGNAME="controlor_upc_0_o8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_decode_40_single_3_to_bus_0" PORT="i2"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o9" SIGIS="undef" SIGNAME="controlor_upc_0_o9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_8" PORT="write_en"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o10" SIGIS="undef" SIGNAME="controlor_upc_0_o10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_6" PORT="write_en"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o11" SIGIS="undef" SIGNAME="controlor_upc_0_o11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_decode_32_0_single_2_to_bus_0" PORT="i0"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o12" SIGIS="undef" SIGNAME="controlor_upc_0_o12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_decode_32_0_single_2_to_bus_0" PORT="i1"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o13" SIGIS="undef" SIGNAME="controlor_upc_0_o13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_decode_39_single_3_to_bus_0" PORT="i0"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o14" SIGIS="undef" SIGNAME="controlor_upc_0_o14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_decode_39_single_3_to_bus_0" PORT="i1"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o15" SIGIS="undef" SIGNAME="controlor_upc_0_o15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_decode_39_single_3_to_bus_0" PORT="i2"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o16" SIGIS="undef" SIGNAME="controlor_upc_0_o16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_5" PORT="read_en"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i16"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o17" SIGIS="undef" SIGNAME="controlor_upc_0_o17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_carry_lookahead_74182_0" PORT="cin"/>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="cin"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o18" SIGIS="undef" SIGNAME="controlor_upc_0_o18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="i0"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i18"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o19" SIGIS="undef" SIGNAME="controlor_upc_0_o19">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="i1"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i19"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o20" SIGIS="undef" SIGNAME="controlor_upc_0_o20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="i2"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o21" SIGIS="undef" SIGNAME="controlor_upc_0_o21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_single_4_to_bus_2" PORT="i3"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o22" SIGIS="undef" SIGNAME="controlor_upc_0_o22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_alu_74181_2" PORT="m"/>
+            <CONNECTION INSTANCE="adder_alu_74181_1" PORT="m"/>
+            <CONNECTION INSTANCE="adder_alu_74181_0" PORT="m"/>
+            <CONNECTION INSTANCE="adder_alu_74181_3" PORT="m"/>
+            <CONNECTION INSTANCE="controlor_single_23_to_bus_0" PORT="i22"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/not_gate_0" HWVERSION="1.0" INSTANCE="not_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="not_gate" VLNV="xilinx.com:module_ref:not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_not_gate_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="cg_fpga_0_btn_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="clk"/>
+            <CONNECTION INSTANCE="pc_and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_decode_38_decoder_3to8_0" PORT="enable"/>
+            <CONNECTION INSTANCE="controlor_decode_39_decoder_3to8_0" PORT="enable"/>
+            <CONNECTION INSTANCE="controlor_decode_40_decoder_3to8_0" PORT="enable"/>
+            <CONNECTION INSTANCE="controlor_decode_32_1_decoder_2to4_0" PORT="enable"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="clk"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_2" PORT="clk"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_1" PORT="clk"/>
+            <CONNECTION INSTANCE="controlor_decode_32_0_decoder_2to4_0" PORT="enable"/>
+            <CONNECTION INSTANCE="controlor_not_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="and_gate_0" PORT="a"/>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_1" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_2" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_3" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_6" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_5" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_7" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_8" PORT="clk"/>
+            <CONNECTION INSTANCE="register_16bit_4" PORT="clk"/>
+            <CONNECTION INSTANCE="pc_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/not_gate_1" HWVERSION="1.0" INSTANCE="not_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="not_gate" VLNV="xilinx.com:module_ref:not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_not_gate_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_decode_32_1_bus_to_single_4_0_o0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_bus_to_single_4_0" PORT="o0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="not_gate_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and_gate_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/or_gate_0" HWVERSION="1.0" INSTANCE="or_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="or_gate" VLNV="xilinx.com:module_ref:or_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_or_gate_0_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="controlor_decode_32_1_bus_to_single_4_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_bus_to_single_4_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_32_1_bus_to_single_4_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_bus_to_single_4_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_4" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/pc_0" HWVERSION="1.0" INSTANCE="pc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="pc" VLNV="xilinx.com:module_ref:pc:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_pc_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_0" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o1" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o2" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o3" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o4" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o5" SIGIS="undef" SIGNAME="pc_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o6" SIGIS="undef" SIGNAME="pc_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o7" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o8" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o9" SIGIS="undef"/>
+        <PORT DIR="O" NAME="o10" SIGIS="undef" SIGNAME="pc_0_o10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o11" SIGIS="undef" SIGNAME="pc_0_o11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o12" SIGIS="undef" SIGNAME="pc_0_o12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o13" SIGIS="undef" SIGNAME="pc_0_o13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o14" SIGIS="undef" SIGNAME="pc_0_o14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="o15" SIGIS="undef" SIGNAME="pc_0_o15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/pc/and_gate_0" HWVERSION="1.0" INSTANCE="pc_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="and_gate" VLNV="xilinx.com:module_ref:and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_and_gate_0_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="controlor_decode_32_0_bus_to_single_4_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_0_bus_to_single_4_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="pc_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_register_16bit_0" PORT="clk"/>
+            <CONNECTION INSTANCE="pc_register_16bit_0" PORT="write_en"/>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="clk"/>
+            <CONNECTION INSTANCE="pc_ic_74161_1" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/pc/group_to_bus_8_0_0" HWVERSION="1.0" INSTANCE="pc_group_to_bus_8_0_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="group_to_bus_8_0" VLNV="xilinx.com:module_ref:group_to_bus_8_0:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_group_to_bus_8_0_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="i0" RIGHT="0" SIGIS="undef" SIGNAME="pc_ic_74161_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="i1" RIGHT="0" SIGIS="undef" SIGNAME="pc_ic_74161_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_ic_74161_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="pc_group_to_bus_8_0_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_trans_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/pc/ic_74161_0" HWVERSION="1.0" INSTANCE="pc_ic_74161_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ic_74161" VLNV="xilinx.com:module_ref:ic_74161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ic_74161_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef" SIGNAME="pc_ic_74161_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_ic_74161_1" PORT="CT_p"/>
+            <CONNECTION INSTANCE="pc_ic_74161_1" PORT="CT_t"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CR" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_p" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_t" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="pc_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="d" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="3" NAME="q" RIGHT="0" SIGIS="undef" SIGNAME="pc_ic_74161_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_group_to_bus_8_0_0" PORT="i0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/pc/ic_74161_1" HWVERSION="1.0" INSTANCE="pc_ic_74161_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ic_74161" VLNV="xilinx.com:module_ref:ic_74161:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ic_74161_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef"/>
+        <PORT DIR="I" NAME="CR" SIGIS="undef" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_p" SIGIS="undef" SIGNAME="pc_ic_74161_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CT_t" SIGIS="undef" SIGNAME="pc_ic_74161_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="LD" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="pc_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="d" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="3" NAME="q" RIGHT="0" SIGIS="undef" SIGNAME="pc_ic_74161_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_group_to_bus_8_0_0" PORT="i1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/pc/register_16bit_0" HWVERSION="1.0" INSTANCE="pc_register_16bit_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="pc_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="pc_trans_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_trans_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="pc_register_16bit_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="PC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="o7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="pc_and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/pc/trans_0" HWVERSION="1.0" INSTANCE="pc_trans_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="trans" VLNV="xilinx.com:module_ref:trans:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_trans_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="pc_group_to_bus_8_0_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_group_to_bus_8_0_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="pc_trans_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_register_16bit_0" PORT="data_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ram_0" HWVERSION="1.0" INSTANCE="ram_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ram" VLNV="xilinx.com:module_ref:ram:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_ram_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="addr" RIGHT="0" SIGIS="undef" SIGNAME="trans1_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="trans1_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="and_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="and_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_5_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_5" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="q" RIGHT="0" SIGIS="undef" SIGNAME="ram_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_8" PORT="data_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="we" SIGIS="undef" SIGNAME="controlor_decode_32_1_bus_to_single_4_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_32_1_bus_to_single_4_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_0" HWVERSION="1.0" INSTANCE="register_16bit_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_0_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="IR"/>
+            <CONNECTION INSTANCE="adpt_out_final_0_0" PORT="ram"/>
+            <CONNECTION INSTANCE="pc_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="o1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_1" HWVERSION="1.0" INSTANCE="register_16bit_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_1_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="R0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="o2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_2" HWVERSION="1.0" INSTANCE="register_16bit_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_2_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="R1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="o3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_3" HWVERSION="1.0" INSTANCE="register_16bit_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_3_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="R2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="o4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_4" HWVERSION="1.0" INSTANCE="register_16bit_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_4_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="trans1_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="or_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="o6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_5" HWVERSION="1.0" INSTANCE="register_16bit_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_5_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_5_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ram_0" PORT="data_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_upc_0_o16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o16"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="o7"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_6" HWVERSION="1.0" INSTANCE="register_16bit_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_6_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="adder_group_to_bus_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_group_to_bus_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_6_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="Z"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="o5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_upc_0_o10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o10"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_7" HWVERSION="1.0" INSTANCE="register_16bit_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_7_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="bus_mux_16_0_bus">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="bus"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_7_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="adder_bus_to_group_0" PORT="i"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_1" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_decode_40_bus_to_single_8_0_o5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_40_bus_to_single_8_0" PORT="o5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/register_16bit_8" HWVERSION="1.0" INSTANCE="register_16bit_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="register_16bit" VLNV="xilinx.com:module_ref:register_16bit:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_register_16bit_8_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="not_gate_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not_gate_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_in" RIGHT="0" SIGIS="undef" SIGNAME="ram_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ram_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="data_out" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_8_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bus_mux_16_0" PORT="DR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="read_en" SIGIS="undef" SIGNAME="controlor_decode_39_bus_to_single_8_0_o6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_decode_39_bus_to_single_8_0" PORT="o6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="cg_fpga_0_btn_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="cg_fpga_0" PORT="btn_rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="write_en" SIGIS="undef" SIGNAME="controlor_upc_0_o9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_upc_0" PORT="o9"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/trans1_0" HWVERSION="1.0" INSTANCE="trans1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="trans1" VLNV="xilinx.com:module_ref:trans1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_trans1_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="15" NAME="i" RIGHT="0" SIGIS="undef" SIGNAME="register_16bit_4_data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="register_16bit_4" PORT="data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="trans1_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ram_0" PORT="addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct1_and_gate_1" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct2_and_gate_1" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_1" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct9_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct8_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct7_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct6_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct5_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct_and_gate_1" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_2" PORT="i3"/>
+            <CONNECTION INSTANCE="controlor_single_4_to_bus_2" PORT="i2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="9" FULLNAME="/xlconstant_1" HWVERSION="1.1" INSTANCE="xlconstant_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xlconstant_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_1_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="LD"/>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="CT_p"/>
+            <CONNECTION INSTANCE="pc_ic_74161_0" PORT="CT_t"/>
+            <CONNECTION INSTANCE="pc_ic_74161_1" PORT="LD"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct4_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_uir_slct_slct3_and_gate_2" PORT="a"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="CT_p"/>
+            <CONNECTION INSTANCE="controlor_cnt_ic_74161_0" PORT="CT_t"/>
+            <CONNECTION INSTANCE="controlor_rom_1kx23_0" PORT="en"/>
+            <CONNECTION INSTANCE="register_16bit_7" PORT="read_en"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

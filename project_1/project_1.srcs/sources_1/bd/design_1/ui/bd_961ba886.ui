@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-177,-119",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_o4 -pg 1 -lvl 4 -x 680 -y 130 -defaultsOSRD
+preplace port port-id_o3 -pg 1 -lvl 4 -x 680 -y 150 -defaultsOSRD
+preplace port port-id_o2 -pg 1 -lvl 4 -x 680 -y 170 -defaultsOSRD
+preplace port port-id_enable -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_i2 -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port port-id_i1 -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port port-id_i0 -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace inst bus_to_single_8_0 -pg 1 -lvl 3 -x 560 -y 140 -defaultsOSRD
+preplace inst decoder_3to8_0 -pg 1 -lvl 2 -x 340 -y 140 -defaultsOSRD
+preplace inst single_3_to_bus_0 -pg 1 -lvl 1 -x 120 -y 70 -defaultsOSRD
+preplace netloc decoder_3to8_0_out 1 2 1 N 140
+preplace netloc single_3_to_bus_0_o 1 1 1 220 70n
+preplace netloc bus_to_single_8_0_o4 1 3 1 NJ 130
+preplace netloc bus_to_single_8_0_o3 1 3 1 NJ 150
+preplace netloc bus_to_single_8_0_o2 1 3 1 NJ 170
+preplace netloc Net1 1 0 2 NJ 150 NJ
+preplace netloc upc_0_o2 1 0 1 NJ 50
+preplace netloc upc_0_o1 1 0 1 NJ 70
+preplace netloc upc_0_o 1 0 1 NJ 90
+levelinfo -pg 1 0 120 340 560 680
+pagesize -pg 1 -db -bbox -sgen -100 -10 750 270
+"
+}
+

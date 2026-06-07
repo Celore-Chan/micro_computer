@@ -22,7 +22,7 @@
 
 ## 技术栈
 
-- Logisim / Vivado
+- Verilog / Vivado
 - Digital Logic Design
 
 ## 学习目标

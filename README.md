@@ -1,6 +1,5 @@
-```markdown
 # micro_computer
-```
+
 [![Language](https://img.shields.io/badge/language-Verilog%20%7C%20VHDL-blue)](https://en.wikipedia.org/wiki/Verilog)
 [![Tool](https://img.shields.io/badge/EDA-Vivado-orange)](https://www.xilinx.com/products/design-tools/vivado.html)
 
